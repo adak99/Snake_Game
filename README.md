@@ -13,7 +13,8 @@ This is a classic Snake Game developed in Java using the **Swing** library. The 
 
 ## Demo
 
-![Game in Action](Snake-_Game\demo.png) <!-- Update with the path to your screenshots -->
+<p align="center">
+ <img src="Images/demo.png" alt="C Programming" width="500vh" height="500vh"></p>
 
 ## Installation and Usage
 
@@ -82,11 +83,13 @@ This is a classic Snake Game developed in Java using the **Swing** library. The 
 
 ### Game Running
 
-![Game Running](relative/path/to/Screenshot_1.png) <!-- Update with the path to your screenshots -->
+<p align="center">
+ <img src="Images/run.png" alt="C Programming" width="500vh" height="500vh"></p>
 
 ### Game Over Screen
 
-![Game Over](relative/path/to/Screenshot_2.png) <!-- Update with the path to your screenshots -->
+<p align="center">
+ <img src="Images/over.png" alt="C Programming" width="500vh" height="500vh"></p>
 
 ## Requirements
 
@@ -105,7 +108,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Java Swing Documentation** for reference on creating GUI applications.
 - Inspiration from the classic snake games we used to play on mobile phones.
-
----
-
-Replace the placeholders in the `README.md` file with the actual paths to your screenshots if you plan to include them in your repository. Let me know if you need any more details or adjustments!
