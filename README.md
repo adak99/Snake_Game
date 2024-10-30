@@ -91,18 +91,20 @@ This is a classic Snake Game developed in Java using the **Swing** library. The 
 <p align="center">
  <img src="Images/over.png" alt="C Programming" width="500vh" height="500vh"></p>
 
+---
+
 ## Requirements
 
 - **Java Development Kit (JDK) 8 or higher**
 - **Any Java IDE or text editor**
 
-## How to Contribute
+<!-- ## How to Contribute
 
-Feel free to fork this project and submit pull requests to contribute to the development. You can add new features, fix bugs, or enhance the game’s UI.
+Feel free to fork this project and submit pull requests to contribute to the development. You can add new features, fix bugs, or enhance the game’s UI. -->
 
-## License
+<!-- ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. -->
 
 ## Acknowledgments
 
