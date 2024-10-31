@@ -1,10 +1,8 @@
-Here’s a revised version of your Snake Game documentation with an improved professional style and some fixes to enhance clarity and aesthetics:
-
----
-
 # Snake Game 🐍
 
-This is a classic **Snake Game** developed in Java using the **Swing** library. Inspired by the traditional snake game, the objective is simple: control the snake to eat food, grow longer, and avoid collisions with your own body or the wall.
+This is a classic **Snake Game** developed in Java using the **Swing** library. Inspired by the traditional snake game,
+the objective is simple: control the snake to eat food, grow longer, and avoid collisions with your own body or the
+wall.
 
 ## 🎮 Features
 
@@ -30,7 +28,8 @@ This is a classic **Snake Game** developed in Java using the **Swing** library. 
 
 2. **Compile the project:**
 
-   You can use any Java IDE like IntelliJ IDEA, Eclipse, or NetBeans. Alternatively, compile it manually using the following command:
+   You can use any Java IDE like IntelliJ IDEA, Eclipse, or NetBeans. Alternatively, compile it manually using the
+   following command:
 
    ```bash
    javac Main.java SnakeGame.java
@@ -50,7 +49,8 @@ This is a classic **Snake Game** developed in Java using the **Swing** library. 
     - **Arrow Left:** Move left
     - **Arrow Right:** Move right
 
-- **Objective:** Guide the snake to eat the red food and increase your score. The snake grows longer with each food item consumed.
+- **Objective:** Guide the snake to eat the red food and increase your score. The snake grows longer with each food item
+  consumed.
 
 - **Game Over Conditions:** The game ends if:
     - The snake collides with the wall.
@@ -70,7 +70,8 @@ This is a classic **Snake Game** developed in Java using the **Swing** library. 
 - **Purpose:** Handles the core game logic and rendering.
 - **Attributes:**
     - **Tile Class:** Represents each segment of the snake and the food.
-    - **Variables:** Manages game components like the snake’s segments, food, movement direction, score, and game-over status.
+    - **Variables:** Manages game components like the snake’s segments, food, movement direction, score, and game-over
+      status.
 
 - **Core Methods:**
     - `draw(Graphics g)`: Renders the snake, food, and game-over screen.
