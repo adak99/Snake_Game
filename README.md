@@ -21,7 +21,7 @@ This is a classic Snake Game developed in Java using the **Swing** library. The 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/adak99/Snake-_Game.git
+   git clone https://github.com/adak99/Snake_Game.git
    ```
 
 2. **Compile the project:**
