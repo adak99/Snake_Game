@@ -1,8 +1,10 @@
+Here's the updated version of your **Snake Game** README with corrections and the proper way to embed the video in the `README.md` file:
+
+---
+
 # Snake Game 🐍
 
-This is a classic **Snake Game** developed in Java using the **Swing** library. Inspired by the traditional snake game,
-the objective is simple: control the snake to eat food, grow longer, and avoid collisions with your own body or the
-wall.
+This is a classic **Snake Game** developed in Java using the **Swing** library. Inspired by the traditional snake game, the objective is simple: control the snake to eat food, grow longer, and avoid collisions with your own body or the wall.
 
 ## 🎮 Features
 
@@ -15,7 +17,11 @@ wall.
 
 ## 🚀 Demo
 
-<video autoplay src="Images/vd.mp4" width="600px" height="600px">
+Here’s a demo video of the game in action:
+
+<video autoplay controls width="600px" height="600px">
+  <source  src="Images/vd.mp4" type="video/mp4">
+</video>
 
 ## 📥 Installation and Usage
 
@@ -27,8 +33,7 @@ wall.
 
 2. **Compile the project:**
 
-   You can use any Java IDE like IntelliJ IDEA, Eclipse, or NetBeans. Alternatively, compile it manually using the
-   following command:
+   You can use any Java IDE like IntelliJ IDEA, Eclipse, or NetBeans. Alternatively, compile it manually using the following command:
 
    ```bash
    javac Main.java SnakeGame.java
@@ -49,8 +54,7 @@ wall.
   - **Arrow Left:** Move left
   - **Arrow Right:** Move right
 
-- **Objective:** Guide the snake to eat the red food and increase your score. The snake grows longer with each food item
-  consumed.
+- **Objective:** Guide the snake to eat the red food and increase your score. The snake grows longer with each food item consumed.
 
 - **Game Over Conditions:** The game ends if:
   - The snake collides with the wall.
@@ -71,8 +75,7 @@ wall.
 - **Attributes:**
 
   - **Tile Class:** Represents each segment of the snake and the food.
-  - **Variables:** Manages game components like the snake’s segments, food, movement direction, score, and game-over
-    status.
+  - **Variables:** Manages game components like the snake’s segments, food, movement direction, score, and game-over status.
 
 - **Core Methods:**
   - `draw(Graphics g)`: Renders the snake, food, and game-over screen.
@@ -87,12 +90,14 @@ wall.
 ### Game Running
 
 <p align="center">
- <img src="Images/run.png" alt="Game Running" width="500vh" height="500vh"></p>
+ <img src="Images/run.png" alt="Game Running" width="500vh" height="500vh">
+</p>
 
 ### Game Over Screen
 
 <p align="center">
- <img src="Images/over.png" alt="Game Over" width="500vh" height="500vh"></p>
+ <img src="Images/over.png" alt="Game Over" width="500vh" height="500vh">
+</p>
 
 ---
 
@@ -101,17 +106,9 @@ wall.
 - **Java Development Kit (JDK) 8 or higher**
 - **Any Java IDE or text editor**
 
-<!-- ## How to Contribute
-
-Feel free to fork this project and submit pull requests to contribute to the development. You can add new features, fix bugs, or enhance the game’s UI. -->
-
-<!-- ## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. -->
-
 ## 🙏 Acknowledgments
 
-- **Java Swing Documentation** for reference on creating GUI applications.
-- Classic snake games on early mobile devices, which served as an inspiration.
+- **Java Swing Documentation:** For reference on creating GUI applications.
+- **Classic Snake Games:** Early mobile snake games that inspired this project.
 
 ---
