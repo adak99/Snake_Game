@@ -15,8 +15,7 @@ wall.
 
 ## 🚀 Demo
 
-<p align="center">
- <img src="Images/demo.png" alt="Game Demo" width="500vh" height="500vh"></p>
+<video autoplay src="Images/vd.mp4" width="600px" height="600px">
 
 ## 📥 Installation and Usage
 
@@ -44,17 +43,18 @@ wall.
 ## 🎯 Gameplay Instructions
 
 - **Control Keys:**
-    - **Arrow Up:** Move up
-    - **Arrow Down:** Move down
-    - **Arrow Left:** Move left
-    - **Arrow Right:** Move right
+
+  - **Arrow Up:** Move up
+  - **Arrow Down:** Move down
+  - **Arrow Left:** Move left
+  - **Arrow Right:** Move right
 
 - **Objective:** Guide the snake to eat the red food and increase your score. The snake grows longer with each food item
   consumed.
 
 - **Game Over Conditions:** The game ends if:
-    - The snake collides with the wall.
-    - The snake collides with its own body.
+  - The snake collides with the wall.
+  - The snake collides with its own body.
 
 ## 📜 Code Overview
 
@@ -62,24 +62,25 @@ wall.
 
 - **Purpose:** Initializes the game window using Java's `JFrame`.
 - **Core Functionality:**
-    - Sets up the game window size, visibility, and close operation.
-    - Adds the `SnakeGame` panel to the frame and starts the game loop.
+  - Sets up the game window size, visibility, and close operation.
+  - Adds the `SnakeGame` panel to the frame and starts the game loop.
 
 ### `SnakeGame` Class
 
 - **Purpose:** Handles the core game logic and rendering.
 - **Attributes:**
-    - **Tile Class:** Represents each segment of the snake and the food.
-    - **Variables:** Manages game components like the snake’s segments, food, movement direction, score, and game-over
-      status.
+
+  - **Tile Class:** Represents each segment of the snake and the food.
+  - **Variables:** Manages game components like the snake’s segments, food, movement direction, score, and game-over
+    status.
 
 - **Core Methods:**
-    - `draw(Graphics g)`: Renders the snake, food, and game-over screen.
-    - `placeFood()`: Randomly places food on the board.
-    - `move()`: Handles the snake's movement and checks for food consumption or collisions.
-    - `collision(Tile tile1, Tile tile2)`: Checks for collisions between two tiles.
-    - `actionPerformed(ActionEvent e)`: Moves the snake and updates the game state at each timer tick.
-    - `keyPressed(KeyEvent e)`: Captures keyboard inputs to control the snake's direction.
+  - `draw(Graphics g)`: Renders the snake, food, and game-over screen.
+  - `placeFood()`: Randomly places food on the board.
+  - `move()`: Handles the snake's movement and checks for food consumption or collisions.
+  - `collision(Tile tile1, Tile tile2)`: Checks for collisions between two tiles.
+  - `actionPerformed(ActionEvent e)`: Moves the snake and updates the game state at each timer tick.
+  - `keyPressed(KeyEvent e)`: Captures keyboard inputs to control the snake's direction.
 
 ## 📸 Screenshots
 
@@ -114,4 +115,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Classic snake games on early mobile devices, which served as an inspiration.
 
 ---
-
