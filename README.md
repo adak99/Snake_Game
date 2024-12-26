@@ -1,7 +1,3 @@
-Here's the updated version of your **Snake Game** README with corrections and the proper way to embed the video in the `README.md` file:
-
----
-
 # Snake Game 🐍
 
 This is a classic **Snake Game** developed in Java using the **Swing** library. Inspired by the traditional snake game, the objective is simple: control the snake to eat food, grow longer, and avoid collisions with your own body or the wall.
